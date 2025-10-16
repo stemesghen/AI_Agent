@@ -1,0 +1,22 @@
+source_id,kind,url,reliability,lang
+gcaptain_rss,rss,https://gcaptain.com/feed/,0.9,en
+splash247_rss,rss,https://splash247.com/feed/,0.85,en
+
+
+# MarineLink — use the canonical news RSS (not /rss/news/)
+marinelink_rss,rss,https://www.marinelink.com/news/rss,0.85,en
+
+hellenicshipping_rss,rss,https://www.hellenicshippingnews.com/feed/,0.85,en
+marineinsight_rss,rss,https://www.marineinsight.com/feed/,0.8,en
+
+
+# — Incidents / casualties —
+seatrade_rss,rss,https://www.seatrade-maritime.com/rss.xml,0.85,en
+
+# — Official bulletins (authoritative) —
+maritimebulletin_rss,rss,https://www.maritimebulletin.net/feed/,0.8,en
+
+# — Security / piracy (HTML list pages; we’ll scrape links) —
+ukmto_html,html,https://www.ukmto.org/incident-report,0.9,en,div.views-row,div.field-content a,1
+nato_sc_html,html,https://shipping.nato.int/Pages/Advisories.aspx,0.85,en,table tbody tr,td a,1
+

@@ -1,0 +1,13 @@
+{
+  "doc_id": "sha256:5a3e91f1484eb6ebbc2d1c2eb3b3b80e0b3bd0a0013d2f1c7dcb460d9b246773",
+  "url": "https://www.marineinsight.com/shipping-news/libyan-militias-carried-out-60-violent-attacks-at-sea-since-2016-new-report-reveals/?utm_source=rss&utm_medium=rss&utm_campaign=libyan-militias-carried-out-60-violent-attacks-at-sea-since-2016-new-report-reveals",
+  "title": "Libyan Militias Carried Out 60 Violent Attacks At Sea Since 2016, New Report Reveals",
+  "published_at": "2025-10-16T00:03:57.035920+00:00",
+  "is_incident": true,
+  "incident_types": [
+    "piracy"
+  ],
+  "near_miss": false,
+  "confidence": 0.75,
+  "rationale": "Incident keywords found"
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:8bf9c8901fa38010f010e87c9dd03bf258647bc8990c60f7f4781349a0da118a",
+  "url": "https://www.marineinsight.com/shipping-news/reach-subseas-usv-begins-fully-remote-operations-without-support-vessel/?utm_source=rss&utm_medium=rss&utm_campaign=reach-subseas-usv-begins-fully-remote-operations-without-support-vessel",
+  "title": "Reach Subsea’s USV Begins Fully Remote Operations Without Support Vessel",
+  "published_at": "2025-10-16T00:04:02.133775+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:9d69c6b2049e31c19be70d558315637e8c78c62b38154dfc8e3e4b397a676e7d",
+  "url": "https://www.seatrade-maritime.com/containers/maersk-drops-china-calls-for-two-us-flagged-vessels",
+  "title": "Maersk diverts two US-flagged vessels from China",
+  "published_at": "2025-10-16T00:04:04.181975+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

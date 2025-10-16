@@ -1,0 +1,13 @@
+{
+  "doc_id": "sha256:6bf1da1c0b253185e8c90486d308ecb02e5a01da4cd7c1bf94b0fcbe93dc970e",
+  "url": "https://gcaptain.com/uk-targets-russian-oil-giants-with-sweeping-sanctions-package/",
+  "title": "UK Targets Russian Oil Giants with Sweeping Sanctions Package",
+  "published_at": "2025-10-15T11:03:49-04:00",
+  "is_incident": true,
+  "incident_types": [
+    "strike"
+  ],
+  "near_miss": false,
+  "confidence": 0.75,
+  "rationale": "Incident keywords found"
+}

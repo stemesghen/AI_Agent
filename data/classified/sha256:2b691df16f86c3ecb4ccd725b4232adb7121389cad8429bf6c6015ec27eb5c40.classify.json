@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:2b691df16f86c3ecb4ccd725b4232adb7121389cad8429bf6c6015ec27eb5c40",
+  "url": "https://www.marineinsight.com/shipping-news/sinopec-reroutes-supertanker-after-u-s-sanctions-on-key-chinese-port/?utm_source=rss&utm_medium=rss&utm_campaign=sinopec-reroutes-supertanker-after-u-s-sanctions-on-key-chinese-port",
+  "title": "Sinopec Reroutes Supertanker After U.S. Sanctions Key Chinese Port",
+  "published_at": "2025-10-16T00:04:01.020533+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:7a93433dc2cc69647aa5c946e94288fedf1c0dfb27c7411d549aff71d30debbe",
+  "url": "https://www.marinelink.com/news/cma-cgm-places-first-order-indianbuilt-531147",
+  "title": "CMA CGM Places First Order for Indian-Built Vessels",
+  "published_at": "2025-10-16T00:02:17.045581+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

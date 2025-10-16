@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:5b11e7c5bd9548f8391d3740cb8973de30d094a2195eb5d8a1e7bb0eabedc07a",
+  "url": "https://gcaptain.com/wall-street-journal-editorial-board-condemns-imo-carbon-tax-as-taxation-without-representation/",
+  "title": "Wall Street Journal Editorial Board Condemns IMO Carbon Tax as ‘Taxation Without Representation’",
+  "published_at": "2025-10-15T11:36:32-04:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

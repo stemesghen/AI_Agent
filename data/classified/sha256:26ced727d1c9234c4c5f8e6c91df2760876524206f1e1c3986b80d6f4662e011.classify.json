@@ -1,0 +1,13 @@
+{
+  "doc_id": "sha256:26ced727d1c9234c4c5f8e6c91df2760876524206f1e1c3986b80d6f4662e011",
+  "url": "https://gcaptain.com/pilots-tugs-prevent-grounding-of-fully-laden-ore-carrier-in-australias-port-hedland/",
+  "title": "Pilots, Tugs Prevent Grounding of Fully Laden Ore Carrier in Australia’s Port Hedland",
+  "published_at": "2025-10-09T11:31:31-04:00",
+  "is_incident": true,
+  "incident_types": [
+    "grounding"
+  ],
+  "near_miss": true,
+  "confidence": 0.75,
+  "rationale": "Incident keywords found"
+}

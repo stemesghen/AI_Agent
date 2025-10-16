@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:131c635e9df957fc874487a3bc031bbefb9a46a6568c5a52e9d1796fb2b6b9e7",
+  "url": "https://www.marineinsight.com/shipping-news/sweden-closes-baltic-sea-cable-sabotage-probe-concludes-it-was-an-accident/?utm_source=rss&utm_medium=rss&utm_campaign=sweden-closes-baltic-sea-cable-sabotage-probe-concludes-it-was-an-accident",
+  "title": "Sweden Closes Baltic Sea Cable Sabotage Probe, Concludes It Was An Accident",
+  "published_at": "2025-10-16T00:03:56.259818+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

@@ -1,0 +1,51 @@
+import json, glob, re, pandas as pd
+from pathlib import Path
+
+# folders
+CLS_DIR = Path("data/classified")
+LABELS = Path("data/labels/review.csv")
+LABELS.parent.mkdir(parents=True, exist_ok=True)
+
+# simple regex patterns
+INCIDENT_RE = re.compile(r"\b(ground(ed|ing)|collision|collided|allision|fire|blaze|on fire|piracy|pirate|hijack|storm|hurricane|typhoon|cyclone|gale|rough seas|port closure|strike|walkout|industrial action|spill|leak)\b", re.I)
+NON_INCIDENT_RE = re.compile(r"\b(sanction|share(s)? hit|tariff|fee|forecast|earning|market|profit|deal|acquisition)\b", re.I)
+
+rows = []
+for f in glob.glob(str(CLS_DIR / "*.classify.json")):
+    j = json.load(open(f))
+    title = j.get("title", "")
+    text = j.get("content_text", "")[:1000]
+    text_all = f"{title} {text}"
+
+    if INCIDENT_RE.search(text_all) and not NON_INCIDENT_RE.search(text_all):
+        is_incident_true = True
+    elif NON_INCIDENT_RE.search(text_all) and not INCIDENT_RE.search(text_all):
+        is_incident_true = False
+    else:
+        # uncertain → skip for manual review
+        continue
+
+    # incident type heuristics
+    incident_types = []
+    for k in ["grounding","collision","fire","piracy","weather","port_closure","strike","spill"]:
+        if re.search(k.replace("_"," "), text_all, re.I):
+            incident_types.append(k)
+
+    rows.append({
+        "doc_id": j["doc_id"],
+        "is_incident_true": is_incident_true,
+        "incident_types_true": ",".join(incident_types),
+        "vessel_true": "",
+        "imo_true": "",
+        "port_true": "",
+        "date_true": "",
+        "notes": "auto-rule"
+    })
+
+if rows:
+    df = pd.DataFrame(rows)
+    df.to_csv(LABELS, index=False)
+    print(f" wrote {len(df)} auto labels → {LABELS}")
+else:
+    print("no matches found – check your regex or classified data.")
+

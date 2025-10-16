@@ -1,0 +1,13 @@
+{
+  "doc_id": "sha256:b0c51b229c0cec7e9468bc16ebc805cd110609f84c24f8d0e1023facccfbfd2c",
+  "url": "https://www.marineinsight.com/shipping-news/u-s-strikes-another-suspected-drug-boat-off-venezuela-killing-six/?utm_source=rss&utm_medium=rss&utm_campaign=u-s-strikes-another-suspected-drug-boat-off-venezuela-killing-six",
+  "title": "U.S. Strikes Another Suspected Drug Boat Off Venezuela, Killing Six",
+  "published_at": "2025-10-16T00:03:59.404427+00:00",
+  "is_incident": true,
+  "incident_types": [
+    "strike"
+  ],
+  "near_miss": false,
+  "confidence": 0.75,
+  "rationale": "Incident keywords found"
+}

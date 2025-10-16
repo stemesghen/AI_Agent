@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:6db1462f60ba969f3299adcbcfd5d2b027e66da613d24b0ed136f2293feb2f8e",
+  "url": "https://www.marineinsight.com/shipping-news/ukrainian-cargo-ship-sinks-in-black-sea-all-10-crew-members-rescued-safely/?utm_source=rss&utm_medium=rss&utm_campaign=ukrainian-cargo-ship-sinks-in-black-sea-all-10-crew-members-rescued-safely",
+  "title": "Ukrainian Cargo Ship Sinks In Black Sea, All 10 Crew Members Rescued",
+  "published_at": "2025-10-16T00:04:01.580885+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}

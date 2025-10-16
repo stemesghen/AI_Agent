@@ -1,0 +1,23 @@
+feedparser # to Read feeds - pulls headlines, urls, summaries, etc.
+trafilatura #Dowloads a webpage HTML and extract the main article text
+tldextract #splits url into parts (domain, subdomain)
+python-dateutil #parses the data into python objects for sorting and comparing (datetime)
+langdetect #autodetect lang of text snippet
+requests #HTTP requstes (GET/POST) to download API 
+
+#Azure
+openai==1.*
+tenacity
+
+#for ingest - phase 1
+spacy
+dateparser
+rapidfuzz
+beautifulsoup4
+
+
+#phase 2
+streamlit
+pandas
+
+

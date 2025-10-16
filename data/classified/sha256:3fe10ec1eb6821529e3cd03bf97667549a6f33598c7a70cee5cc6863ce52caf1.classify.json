@@ -1,0 +1,13 @@
+{
+  "doc_id": "sha256:3fe10ec1eb6821529e3cd03bf97667549a6f33598c7a70cee5cc6863ce52caf1",
+  "url": "https://www.marineinsight.com/shipping-news/oil-tanker-explosion-at-indonesias-batam-shipyard-kills-10-injures-over-20/?utm_source=rss&utm_medium=rss&utm_campaign=oil-tanker-explosion-at-indonesias-batam-shipyard-kills-10-injures-over-20",
+  "title": "Oil Tanker Explosion At Indonesia’s Batam Shipyard Kills 10 & Injures Over 20",
+  "published_at": "2025-10-16T00:03:57.885918+00:00",
+  "is_incident": true,
+  "incident_types": [
+    "fire"
+  ],
+  "near_miss": false,
+  "confidence": 0.75,
+  "rationale": "Incident keywords found"
+}

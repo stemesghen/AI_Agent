@@ -1,0 +1,11 @@
+{
+  "doc_id": "sha256:43913e5641b9f62a136fe1fc0137e360dcd182fe071635e0b070fd87541dc2be",
+  "url": "https://www.marinelink.com/news/rozema-boat-works-receives-uscg-contract-531151",
+  "title": "Rozema Boat Works Receives USCG Contract",
+  "published_at": "2025-10-16T00:02:16.382843+00:00",
+  "is_incident": false,
+  "incident_types": [],
+  "near_miss": false,
+  "confidence": 0.3,
+  "rationale": "Policy/market news or no incident cues"
+}
